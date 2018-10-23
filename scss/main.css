@@ -163,7 +163,7 @@ body {
   color: #fff;
   height: 100%;
   margin: 0;
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.5;
 }
 
@@ -223,12 +223,10 @@ header {
 main {
   padding: 4rem;
   min-height: calc(100vh - 60px);
-  color: #fff;
 }
 
 main .icons {
   margin-top: 1rem;
-  margin-left: 3rem;
 }
 
 main .icons a {
@@ -253,9 +251,9 @@ main#home h1 {
   display: -ms-grid;
   display: grid;
   grid-gap: 30px;
-      grid-template-areas: "bioimage bio bio" "job1 job2 job3";
-  -ms-grid-columns: (1f)[3];
-      grid-template-columns: repeat(3, 1f);
+      grid-template-areas: 'bioimage bio bio' 'job1 job2 job3';
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
 }
 
 .about-info .bio-image {
